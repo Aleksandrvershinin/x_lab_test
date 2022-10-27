@@ -1,0 +1,11 @@
+@use 'sass:math';
+
+@function rem($size) {
+    $result: math.div($size, 16)+rem;
+    @return $result;
+}
+
+@function em($size) {
+    $result: math.div($size, 16)+em;
+    @return $result;
+}

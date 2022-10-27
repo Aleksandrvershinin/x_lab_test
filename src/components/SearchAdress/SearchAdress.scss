@@ -1,0 +1,35 @@
+.description {
+    margin-bottom: rem(24);
+    font-weight: 500;
+    font-size: rem(20);
+    line-height: rem(24);
+    color: #1C1C1E;
+}
+
+.form {
+    display: flex;
+}
+
+.input {
+    flex: 1 1 auto;
+    margin-right: rem(24);
+}
+
+.btn {
+    display: flex;
+    column-gap: rem(16);
+    align-items: center;
+}
+
+@media (max-width: em(1000)) {
+    .input {
+        margin-right: 0;
+        width: 100%;
+    }
+
+    .form {
+        flex-direction: column;
+        row-gap: rem(24);
+        align-items: center;
+    }
+}

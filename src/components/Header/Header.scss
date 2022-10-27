@@ -1,0 +1,48 @@
+.header {
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 rem(32);
+    height: rem(80);
+    background: var(--myBlue);
+}
+
+.logo,
+.user {
+    display: flex;
+    align-items: center;
+}
+
+.logo__text {
+    padding-left: rem(24);
+    font-weight: 700;
+    font-size: rem(20);
+    line-height: rem(24);
+    color: #FFFFFF;
+}
+
+.logo__icon {
+    height: rem(48);
+    width: rem(48);
+    background: url('/src/assets/img/icon_logo.svg')no-repeat;
+    background-size: contain;
+}
+
+
+
+.user__icon {
+    height: rem(48);
+    width: rem(48);
+    background: url('/src/assets/img/icon_person.svg')no-repeat;
+    background-size: contain;
+}
+
+.user__name {
+    padding-left: rem(16);
+    font-weight: 700;
+    font-size: rem(20);
+    line-height: rem(24);
+    color: #FFFFFF;
+}

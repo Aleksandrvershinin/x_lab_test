@@ -1,0 +1,16 @@
+:global(.menu__item_wrap),
+.menu__item a {
+    display: flex;
+    align-items: center;
+    column-gap: rem(16);
+    cursor: pointer;
+    font-weight: 600;
+    font-size: rem(20);
+    line-height: rem(24);
+    text-decoration: none;
+    color: inherit;
+}
+
+.menu__item {
+    width: max-content;
+}

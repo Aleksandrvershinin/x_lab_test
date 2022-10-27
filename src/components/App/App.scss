@@ -1,0 +1,17 @@
+.wrap {
+    display: flex;
+    height: calc(100vh - rem(80));
+}
+
+.wrap__main {
+    padding-top: rem(32);
+    padding-left: rem(32);
+    padding-right: rem(32);
+    overflow-y: auto;
+    flex: 1 1 auto;
+}
+
+.content {
+    max-width: rem(1440);
+    margin: 0 auto;
+}

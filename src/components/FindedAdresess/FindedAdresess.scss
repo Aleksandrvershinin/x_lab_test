@@ -1,0 +1,21 @@
+.wrap {
+    padding: rem(24);
+    box-shadow: 0px 2px 8px rgba(2, 0, 97, 0.25);
+    border-radius: 10px;
+}
+
+.title {
+    margin-bottom: rem(16);
+    font-weight: 700;
+    font-size: rem(26);
+    line-height: rem(32);
+}
+
+.item {
+    padding-top: rem(16);
+    padding-bottom: rem(16);
+    border-top: 1px solid #D7D7D7;
+    font-weight: 500;
+    font-size: rem(20);
+    line-height: rem(24);
+}

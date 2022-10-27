@@ -1,0 +1,17 @@
+.input {
+    padding-left: rem(24);
+    border: 3px solid #4F27BF;
+    border-radius: 10px;
+    height: rem(70);
+    color: #1C1C1E;
+    font-weight: 500;
+    font-size: rem(20);
+    line-height: rem(24);
+
+    &::placeholder {
+        font-weight: 500;
+        font-size: rem(20);
+        line-height: rem(24);
+        color: #6C6C6C
+    }
+}

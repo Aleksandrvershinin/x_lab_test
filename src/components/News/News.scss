@@ -1,0 +1,25 @@
+.messageError {
+    margin-bottom: rem(16);
+}
+
+.articles__list {
+    display: flex;
+    flex-direction: column;
+    row-gap: rem(30);
+}
+
+.article__item {
+    padding: rem(10);
+}
+
+.article__title,
+.article__description {
+    font-weight: 500;
+    font-size: rem(20);
+    line-height: rem(24);
+}
+
+.article__title {
+    color: #1C1C1E;
+    margin-bottom: rem(24);
+}
